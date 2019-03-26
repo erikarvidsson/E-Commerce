@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{4C0BEE02-A958-4CCE-9372-40A39C380998}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="webAPI/create.sql">
+    <Files>
+      <File FileName="webAPI/Repositorys/OrderRepository.cs" Line="15" Column="9" />
+      <File FileName="webAPI/Startup.cs" Line="43" Column="1" />
+      <File FileName="webAPI/Models/Items.cs" Line="10" Column="15" />
+      <File FileName="webAPI/Repositorys/ItemsRepository.cs" Line="44" Column="56" />
+      <File FileName="webAPI/create.sql" Line="44" Column="1" />
+      <File FileName="webAPI/Controllers/ItemsController.cs" Line="29" Column="10" />
+      <File FileName="webAPI/Repositorys/connectionString.cs" Line="1" Column="1" />
+      <File FileName="webAPI/Models/Orders.cs" Line="1" Column="1" />
+      <File FileName="webAPI/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="webAPI/appsettings.json" Line="1" Column="1" />
+      <File FileName="webAPI/Models/.#Cart.cs" Line="8" Column="18" />
+      <File FileName="webAPI/Controllers/CustomerController.cs" Line="1" Column="1" />
+      <File FileName="webAPI/Models/CartItems.cs" Line="9" Column="19" />
+      <File FileName="webAPI/Controllers/myGuidController.cs" Line="22" Column="2" />
+      <File FileName="webAPI/Controllers/CartItemsController.cs" Line="37" Column="19" />
+      <File FileName="webAPI/Services/CartItems.cs" Line="1" Column="1" />
+      <File FileName="webAPI/Services/CartItemsService.cs" Line="17" Column="37" />
+      <File FileName="webAPI/Repositorys/CartItemsRepository.cs" Line="7" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.webAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
