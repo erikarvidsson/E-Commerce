@@ -18,8 +18,6 @@ namespace webAPI.Controllers
     public class ItemsController : Controller
     {
         private readonly string connectionString;
-
-
         private readonly ItemsService itemsService;
 
         public ItemsController(IConfiguration configuration)

@@ -22,7 +22,7 @@ public class ItemsRepository
     {
         using (var connection = new MySqlConnection(this.connectionString))
         {
-            return connection.Query<Items>("SELECT * FROM Products").ToList();
+            return connection.Query<Items>("SELECT * FROM Items").ToList();
         }
     }
 
@@ -31,7 +31,7 @@ public class ItemsRepository
     {
         using (var connection = new MySqlConnection(this.connectionString))
         {
-            return connection.QuerySingleOrDefault<Items>("SELECT * FROM Products WHERE id = @id", new { id });
+            return connection.QuerySingleOrDefault<Items>("SELECT * FROM Items WHERE id = @id", new { id });
 
         }
 

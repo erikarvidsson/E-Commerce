@@ -1,24 +1,43 @@
 ﻿<Properties StartupConfiguration="{4C0BEE02-A958-4CCE-9372-40A39C380998}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="webAPI/create.sql">
+  <MonoDevelop.Ide.Workbench ActiveDocument="webAPI/Repositorys/PlacedOrderRepository.cs">
     <Files>
-      <File FileName="webAPI/Repositorys/OrderRepository.cs" Line="15" Column="1" />
-      <File FileName="webAPI/Startup.cs" Line="43" Column="1" />
-      <File FileName="webAPI/Models/Items.cs" Line="10" Column="15" />
-      <File FileName="webAPI/Repositorys/ItemsRepository.cs" Line="44" Column="56" />
-      <File FileName="webAPI/create.sql" Line="44" Column="1" />
-      <File FileName="webAPI/Controllers/ItemsController.cs" Line="29" Column="10" />
-      <File FileName="webAPI/Repositorys/connectionString.cs" Line="1" Column="1" />
-      <File FileName="webAPI/Models/Orders.cs" Line="1" Column="1" />
-      <File FileName="webAPI/Controllers/ValuesController.cs" Line="1" Column="1" />
-      <File FileName="webAPI/appsettings.json" Line="1" Column="1" />
-      <File FileName="webAPI/Controllers/CustomerController.cs" Line="1" Column="1" />
-      <File FileName="webAPI/Models/CartItems.cs" Line="9" Column="19" />
-      <File FileName="webAPI/Controllers/myGuidController.cs" Line="22" Column="2" />
-      <File FileName="webAPI/Controllers/CartItemsController.cs" Line="37" Column="19" />
-      <File FileName="webAPI/Services/CartItems.cs" Line="1" Column="1" />
-      <File FileName="webAPI/Services/CartItemsService.cs" Line="17" Column="37" />
-      <File FileName="webAPI/Repositorys/CartItemsRepository.cs" Line="7" Column="33" />
+      <File FileName="webAPI/Models/Customers.cs" Line="12" Column="1" />
+      <File FileName="webAPI/Controllers/CustomersController.cs" Line="77" Column="16" />
+      <File FileName="webAPI/Controllers/ItemsController.cs" Line="18" Column="23" />
+      <File FileName="webAPI/Services/CustomerService.cs" Line="47" Column="1" />
+      <File FileName="webAPI/Services/ItemsService.cs" Line="18" Column="1" />
+      <File FileName="webAPI/Repositorys/CustomersRepository.cs" Line="32" Column="74" />
+      <File FileName="webAPI/Repositorys/ItemsRepository.cs" Line="19" Column="5" />
+      <File FileName="webAPI/Controllers/CartController.cs" Line="24" Column="22" />
+      <File FileName="webAPI/Repositorys/OrdersRepository.cs" Line="12" Column="1" />
+      <File FileName="webAPI/Program.cs" Line="17" Column="1" />
+      <File FileName="webAPI/Models/Items.cs" Line="14" Column="1" />
+      <File FileName="webAPI/Repositorys/CartRepository.cs" Line="28" Column="26" />
+      <File FileName="webAPI/appsettings.json" Line="3" Column="86" />
+      <File FileName="webAPI/Models/Cart.cs" Line="12" Column="2" />
+      <File FileName="webAPI/Models/PlacedOrder.cs" Line="11" Column="24" />
+      <File FileName="webAPI/Models/Orders.cs" Line="13" Column="41" />
+      <File FileName="webAPI/Controllers/PlacedOrderController.cs" Line="1" Column="1" />
+      <File FileName="webAPI/Controllers/OrdersController.cs" Line="35" Column="1" />
+      <File FileName="webAPI/Repositorys/PlacedOrderRepository.cs" Line="21" Column="73" />
+      <File FileName="webAPI/Services/PlacedOrderService.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="webAPI" expanded="True">
+            <Node name="webAPI.IntegrationTests" expanded="True">
+              <Node name="webAPI" expanded="True">
+                <Node name="IntegrationTests" expanded="True">
+                  <Node name="Services" selected="True" />
+                  <Node name="UnitTest1" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.webAPI PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
