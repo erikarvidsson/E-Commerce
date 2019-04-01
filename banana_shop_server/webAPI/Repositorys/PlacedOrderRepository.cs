@@ -24,9 +24,10 @@ namespace webAPI.Repositorys
             using (var connection = new MySqlConnection(this.connectionString))
             {
                 return connection.Query<Items>("SELECT * FROM Orders INNER JOIN Customers ON Orders.id = Customer.id WHERE id = @id", new { id }).ToList();
+
             }
         }
+      }
 
 
-    }
-}
+  }
