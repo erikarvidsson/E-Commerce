@@ -7,5 +7,6 @@ namespace webAPI.Models
         public string name { get; set; }
         public string adress { get; set; }
         public string phone { get; set; }
+        public string guid { get; set; }
     }
 }

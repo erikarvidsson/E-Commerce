@@ -27,9 +27,9 @@ namespace webAPI.Services
         }
 
 
-        public Customers Get(int id)
+        public Customers Get(string guid)
         {
-            return this.customersRepository.Get(id);
+            return this.customersRepository.Get(guid);
 
         }
 

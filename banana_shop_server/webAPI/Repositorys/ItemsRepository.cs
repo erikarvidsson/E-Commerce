@@ -43,7 +43,7 @@ public class ItemsRepository
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO Products (name, price, description) VALUES(@name, @price, @description)", items);
+                connection.Execute("INSERT INTO Items (name, price, description, img_url) VALUES(@name, @price, @description, @img_url)", items);
             }
             return false;
         }

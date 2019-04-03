@@ -27,11 +27,11 @@ public class CustomersRepository
     }
 
 
-    public Customers Get(int id)
+    public Customers Get(string guid)
     {
         using (var connection = new MySqlConnection(this.connectionString))
         {
-            return connection.QuerySingleOrDefault<Customers>("SELECT * FROM Customers WHERE id = @id", new { id });
+            return connection.QuerySingleOrDefault<Customers>("SELECT * FROM Customers WHERE guid = @guid", new { guid });
 
         }
 
@@ -43,7 +43,7 @@ public class CustomersRepository
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO Customers (name, adress, phone) VALUES(@name, @adress, @phone)", customers);
+                connection.Execute("INSERT INTO Customers (guid, name, adress, phone) VALUES(@name, @guid, @adress, @phone)", customers);
             }
             return false;
         }

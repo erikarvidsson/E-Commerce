@@ -37,7 +37,7 @@ namespace webAPI.Repositorys
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO Cart (guid, product_id) VALUES (@guid, @product_id)", cart);
+                connection.Execute("INSERT INTO Cart (guid, product_id, orderd) VALUES (@guid, @product_id, @orderd)", cart);
             }
         }
     }

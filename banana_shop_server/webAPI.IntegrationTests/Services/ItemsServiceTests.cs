@@ -42,31 +42,5 @@ namespace webAPI.IntegrationTests.Services
             Assert.That(results.price, Is.EqualTo("999"));
         }
 
-        //[Test]
-        //public void Add_GivenValidItemsItem_SavesIt()
-        //{
-        //    // Arrange
-        //    const string ExpectedName = "test";
-        //    const string ExpectedPrice = "test";
-        //    const string ExpectedDescription = "test";
-        //    IAsyncResult result;
-
-        //    var Items = new 
-        //    {
-        //        name = ExpectedName,
-        //        price = ExpectedPrice,
-        //        description = ExpectedDescription
-        //    };
-        //    // Act
-        //    using (new TransactionScope())
-        //    {
-        //        this.itemsService.Add(Items);
-
-        //        result = this.itemsService.Get().Last();
-        //    }
-
-        //    // Assert
-        //    Assert.That(this.result.name, Is.EqualTo());
-        //}
     }
 }

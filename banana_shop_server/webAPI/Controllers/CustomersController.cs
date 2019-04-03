@@ -40,9 +40,9 @@ namespace webAPI.Controllers
             [HttpGet("{id}")]
             [ProducesResponseType(typeof(Customers), StatusCodes.Status200OK)]
             [ProducesResponseType(StatusCodes.Status404NotFound)]
-            public IActionResult Get(int id)
+            public IActionResult Get(string guid)
             {
-                var customersItem = this.customersService.Get(id);
+                var customersItem = this.customersService.Get(guid);
 
                 if (customersItem == null)
                 {
