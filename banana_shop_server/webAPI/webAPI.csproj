@@ -27,5 +27,9 @@
     <Compile Remove="Repositorys\EmptyClass.cs" />
     <Compile Remove="Controllers\CustomerController.cs" />
     <Compile Remove="Services\CartItems.cs" />
+    <Compile Remove="Controllers\ViewPlacedOrderController.cs" />
+    <Compile Remove="Models\ViewPlacedOrder.cs" />
+    <Compile Remove="Services\ViewPlacedOrderService.cs" />
+    <Compile Remove="Repositorys\ViewPlacedOrderRepository.cs" />
   </ItemGroup>
 </Project>
