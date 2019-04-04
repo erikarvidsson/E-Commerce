@@ -11,7 +11,7 @@
 ---
 
 #### Testers
-- First name Lastname
+- Fredrik Leemann
 
 #### Functionalities:
 
