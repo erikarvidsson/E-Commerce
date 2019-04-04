@@ -52,7 +52,7 @@ http://localhost:28071/api/cart (Post)
 Place your order
 http://localhost:28071/api/placeorder (Post)
 {
-	    "name": “Your name”,
+	"name": “Your name”,
         "adress": “Delivery adress”,
         "phone": “Phone number”,
         "guid": "“***Your guid***"
